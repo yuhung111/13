@@ -2,6 +2,8 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --primary-color: #ffb900;
+    --font-heading: "Sen", sans-serif;
 }
 *{
     box-sizing: inherit;
@@ -16,18 +18,48 @@ a {
 }
 body{
     font-size: 1.6rem;
-}
-.arow-right__icon{
-    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
 }
 .line-clamp{
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--line-clamp, 1);
     overflow: hidden;
-    -webkit-line-clamp: var(--line-clamp, 2);
+}
+.line-clamp.line-2{
+    --line-clamp: 2;
+}
+.break-all {
+    word-break: break-all;
 }
 .bg-color{
     background-color: var(--bg-color, #0f1b4c);
+}
+.btn{
+    display: inline-block;
+    min-width: 118px;
+    padding: 0 16px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+    background: #171100;
+    border-radius: 999px;
+}
+.heading.lv1{
+    font-size: 5.8rem;
+    line-height: 1.17;
+}
+.heading.lv2{
+    font-size: 3.8rem;
+    line-height: 1.26;
+}
+.heading{
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #171100;
 }
 @keyframes fadeIn {
     from {

@@ -10,7 +10,7 @@
 }
 
 .grid.sm-wide {
-    max-width: 1110px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -283,8 +283,8 @@
 /* PC medium resolution > */
 @media (min-width: 1113px) {
     .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
     .row.sm-gutter {
@@ -293,8 +293,8 @@
     }
 
     .col {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .row.sm-gutter .col {
@@ -485,111 +485,134 @@
         display: block;
     }
 
+    .sm-wide .l-1,
     .wide .l-1 {
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
     }
 
+    .sm-wide .l-2,
     .wide .l-2 {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
     }
 
+    .sm-wide .l-2-4,
     .wide .l-2-4 {
         flex: 0 0 20%;
         max-width: 20%;
     }
 
+    .sm-wide .l-3,
     .wide .l-3 {
         flex: 0 0 25%;
         max-width: 25%;
     }
 
+    .sm-wide .l-4,
     .wide .l-4 {
         flex: 0 0 33.33333%;
         max-width: 33.33333%;
     }
-
+    .sm-wide .l-5,
     .wide .l-5 {
         flex: 0 0 41.66667%;
         max-width: 41.66667%;
     }
 
+    .sm-wide .l-6,
     .wide .l-6 {
         flex: 0 0 50%;
         max-width: 50%;
     }
 
+    .sm-wide .l-7,
     .wide .l-7 {
         flex: 0 0 58.33333%;
         max-width: 58.33333%;
     }
 
+    .sm-wide .l-8,
     .wide .l-8 {
         flex: 0 0 66.66667%;
         max-width: 66.66667%;
     }
 
+    .sm-wide .l-9,
     .wide .l-9 {
         flex: 0 0 75%;
         max-width: 75%;
     }
 
+    .sm-wide .l-10,
     .wide .l-10 {
         flex: 0 0 83.33333%;
         max-width: 83.33333%;
     }
-
+    
+    .sm-wide .l-11,
     .wide .l-11 {
         flex: 0 0 91.66667%;
         max-width: 91.66667%;
     }
 
+    .sm-wide .l-12,
     .wide .l-12 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
+    .sm-wide .l-o-1,
     .wide .l-o-1 {
         margin-left: 8.33333%;
     }
 
+    .sm-wide .l-o-2,
     .wide .l-o-2 {
         margin-left: 16.66667%;
     }
 
+    .sm-wide .l-o-3,
     .wide .l-o-3 {
         margin-left: 25%;
     }
 
+    .sm-wide .l-o-4,
     .wide .l-o-4 {
         margin-left: 33.33333%;
     }
-
+    
+    .sm-wide .l-o-5,
     .wide .l-o-5 {
         margin-left: 41.66667%;
     }
 
+    .sm-wide .l-o-6,
     .wide .l-o-6 {
         margin-left: 50%;
     }
 
+    .sm-wide .l-o-7,
     .wide .l-o-7 {
         margin-left: 58.33333%;
     }
-
+    
+    .sm-wide .l-o-8,
     .wide .l-o-8 {
         margin-left: 66.66667%;
     }
 
+    .sm-wide .l-o-9,
     .wide .l-o-9 {
         margin-left: 75%;
     }
 
+    .sm-wide .l-o-10,
     .wide .l-o-10 {
         margin-left: 83.33333%;
     }
 
+    .sm-wide .l-o-11,
     .wide .l-o-11 {
         margin-left: 91.66667%;
     }
